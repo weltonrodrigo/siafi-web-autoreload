@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "Recarrega automaticamente a página do SIAFI Web",
   "description": "Mantém o freio de mão puxado pro SIAFI não encerrar a sessão sozinho.",
   "version": "0.1",

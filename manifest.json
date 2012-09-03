@@ -13,6 +13,7 @@
 			"run_at": "document_end"
 	} 
   ],
+  "update_url": "http://www.5distrr.dprf.gov.br/extensions/updates.xml",
   "page_action": {
     "default_icon": "icons/brake-button.jpg"
     ,"default_title": "Puxa o freio."

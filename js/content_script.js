@@ -1,4 +1,4 @@
-﻿var timeout = 60000;
+var timeout = 60000;
 
 // chrome.extension.sendMessage are assynchronous.
 

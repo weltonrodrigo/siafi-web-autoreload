@@ -164,3 +164,7 @@ pip-log.txt
 
 # Vim swap files.
 *~
+
+# Chrome extension development
+*.crx
+*.pem

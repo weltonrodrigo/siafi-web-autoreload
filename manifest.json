@@ -1,7 +1,7 @@
 {
   "name": "Recarrega automaticamente a página do SIAFI Web",
   "description": "Mantém o freio de mão puxado pro SIAFI não encerrar a sessão sozinho.",
-  "version": "0.2",
+  "version": "0.4",
   "permissions": ["tabs"],
   "background": {
     "scripts": ["js/background.js"]

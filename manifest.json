@@ -1,14 +1,14 @@
 {
   "name": "Recarrega automaticamente a página do SIAFI Web",
   "description": "Mantém o freio de mão puxado pro SIAFI não encerrar a sessão sozinho.",
-  "version": "0.1",
+  "version": "0.2",
   "permissions": ["tabs"],
   "background": {
     "scripts": ["js/background.js"]
   },
   "content_scripts": [ 
 		{
-			"matches": ["https://siafi.tesouro.gov.br/siafi2012/*" ], 
+			"matches": ["https://siafi.tesouro.gov.br/siafi*" ], 
 			"js": [ "js/jquery-1.8.0.min.js", "js/jquery-ui-1.8.23.custom.min.js",  "js/content_script.js"], 
 			"run_at": "document_end"
 	} 

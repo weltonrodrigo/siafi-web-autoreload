@@ -22,7 +22,7 @@ function setTitle(tab){
 }
 
 function check(tab_id, data, tab){
-    if ( tab.url.match(/siafi2012/) ) {
+    if ( tab.url.match(/\/siafi20.*/) ) {
         chrome.pageAction.show(tab_id);
 
         // Initialize with a valid value.
